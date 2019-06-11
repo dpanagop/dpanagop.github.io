@@ -34,7 +34,7 @@ AFRAME.registerComponent("markerhandler",{
 	          	//	if (interacted)
 	          	//	{
 	          			soundentity.components.sound.playSound();
-		 				dino.setAttribute('animation-mixer', {clip: 'C4D Animation Take', loop: 'repeat'});
+		 			//	dino.setAttribute('animation-mixer', {clip: 'C4D Animation Take', loop: 'repeat'});
 	          	//	}
 
 	          	}
@@ -66,7 +66,7 @@ AFRAME.registerComponent('dinoInteractionListener', {
 				interacted = true;
 
 				soundentity.components.sound.playSound();
-				dino.setAttribute('animation-mixer', {clip: 'C4D Animation Take', loop: 'repeat'});
+				//dino.setAttribute('animation-mixer', {clip: 'C4D Animation Take', loop: 'repeat'});
 	        });
 	    }
 	});
