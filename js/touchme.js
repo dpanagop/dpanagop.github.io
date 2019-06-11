@@ -3,22 +3,6 @@ var isTargetFound = false;
 var interacted = false;
 var dino = null;
 
-/* function sleep(milliseconds) {
-  var start = new Date().getTime();
-  for (var i = 0; i < 1e7; i++) {
-    if ((new Date().getTime() - start) > milliseconds){
-      break;
-    }
-  }
-}
-
-document.getElementById("banner-section").style.display = "none";
-	document.getElementById("initial-banner-section").style.display = "block";		
-	sleep(6000);
-document.getElementById("msg").innerHTML  = "hi none";
-	document.getElementById("banner-section").style.display = "block";
-*/ 
-
 AFRAME.registerComponent("markerhandler",{
 	init:function() {
 		console.log('markerhandler-init');
@@ -30,7 +14,7 @@ AFRAME.registerComponent("markerhandler",{
 
 	     dino = document.querySelector('#animated-dino');
 		 dino.object3D.visible = false;
-	document.getElementById("msg").innerHTML  = "hi none";
+
 		 //dino.setAttribute('animation-mixer', {clip: 'C4D Animation Take', loop: 'repeat'});
 	},
 
