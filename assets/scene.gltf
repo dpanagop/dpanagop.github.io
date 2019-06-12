@@ -3,27 +3,27 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 4616,
+      "count": 1048,
       "max": [
-        29,
-        44,
-        30
+        1188.5107421875,
+        255.91574096679688,
+        552.78765869140625
       ],
       "min": [
-        -29,
-        0,
-        -30
+        -1200.7998046875,
+        -767.20904541015625,
+        -979.748046875
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 55392,
+      "byteOffset": 12576,
       "componentType": 5126,
-      "count": 4616,
+      "count": 1048,
       "max": [
         1,
-        1,
+        0.80251044034957886,
         1
       ],
       "min": [
@@ -36,203 +36,41 @@
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 4616,
+      "count": 1048,
       "max": [
-        1,
+        0.73342204093933105,
         1,
         1,
         1
       ],
       "min": [
+        -0.73095893859863281,
         -1,
         -1,
-        -1,
-        1
+        -1
       ],
       "type": "VEC4"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 4616,
+      "count": 1048,
       "max": [
-        0.99393999576568604,
-        0.99393999576568604
+        0.99934935569763184,
+        0.99934357404708862
       ],
       "min": [
-        0.0060600000433623791,
-        0.0060600000433623791
+        0.00065070169512182474,
+        0.00065645278664305806
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 18174,
+      "count": 2844,
       "max": [
-        4615
-      ],
-      "min": [
-        0
-      ],
-      "type": "SCALAR"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 110784,
-      "componentType": 5126,
-      "count": 4,
-      "max": [
-        0.21983000636100769,
-        0.5,
-        0
-      ],
-      "min": [
-        -0.21983000636100769,
-        -0.5,
-        0
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 110832,
-      "componentType": 5126,
-      "count": 4,
-      "max": [
-        0,
-        0,
-        1
-      ],
-      "min": [
-        0,
-        0,
-        1
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 3,
-      "byteOffset": 73856,
-      "componentType": 5126,
-      "count": 4,
-      "max": [
-        1,
-        0,
-        0,
-        1
-      ],
-      "min": [
-        1,
-        0,
-        0,
-        1
-      ],
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 1,
-      "byteOffset": 36928,
-      "componentType": 5126,
-      "count": 4,
-      "max": [
-        1,
-        1
-      ],
-      "min": [
-        0,
-        0
-      ],
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 0,
-      "byteOffset": 72696,
-      "componentType": 5125,
-      "count": 6,
-      "max": [
-        3
-      ],
-      "min": [
-        0
-      ],
-      "type": "SCALAR"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 110880,
-      "componentType": 5126,
-      "count": 4,
-      "max": [
-        0.21983000636100769,
-        0.5,
-        0
-      ],
-      "min": [
-        -0.21983000636100769,
-        -0.5,
-        0
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 110928,
-      "componentType": 5126,
-      "count": 4,
-      "max": [
-        0,
-        0,
-        1
-      ],
-      "min": [
-        0,
-        0,
-        1
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 3,
-      "byteOffset": 73920,
-      "componentType": 5126,
-      "count": 4,
-      "max": [
-        1,
-        0,
-        0,
-        1
-      ],
-      "min": [
-        1,
-        0,
-        0,
-        1
-      ],
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 1,
-      "byteOffset": 36960,
-      "componentType": 5126,
-      "count": 4,
-      "max": [
-        1,
-        1
-      ],
-      "min": [
-        0,
-        0
-      ],
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 0,
-      "byteOffset": 72720,
-      "componentType": 5125,
-      "count": 6,
-      "max": [
-        3
+        1047
       ],
       "min": [
         0
@@ -242,42 +80,42 @@
   ],
   "asset": {
     "extras": {
-      "author": "elbriga (https://sketchfab.com/elbriga)",
+      "author": "Gunnar Correa (https://sketchfab.com/gunnarcorrea)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/models/b86867ea230d46e8be331c5606e1055f",
-      "title": "Tom Waits"
+      "source": "https://sketchfab.com/models/2c1eb3eaa58d4d60b0fbdd38a08833d5",
+      "title": "Old radio"
     },
-    "generator": "Sketchfab-3.20.7",
+    "generator": "Sketchfab-4.32.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 72744,
+      "byteLength": 11376,
       "byteOffset": 0,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 36992,
-      "byteOffset": 72744,
+      "byteLength": 8384,
+      "byteOffset": 11376,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 110976,
-      "byteOffset": 109736,
+      "byteLength": 25152,
+      "byteOffset": 19760,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 73984,
-      "byteOffset": 220712,
+      "byteLength": 16768,
+      "byteOffset": 44912,
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
@@ -285,90 +123,35 @@
   ],
   "buffers": [
     {
-      "byteLength": 294696,
+      "byteLength": 61680,
       "uri": "scene.bin"
     }
   ],
-  "extensionsUsed": [
-    "KHR_materials_unlit"
-  ],
   "images": [
     {
-      "uri": "textures/palette_baseColor.png"
+      "uri": "textures/Material_metallicRoughness.png"
     },
     {
-      "uri": "textures/smoke.001_baseColor.png"
+      "uri": "textures/Material_baseColor.png"
     },
     {
-      "uri": "textures/smoke_baseColor.png"
+      "uri": "textures/Material_normal.png"
     }
   ],
   "materials": [
     {
-      "alphaMode": "BLEND",
       "doubleSided": true,
       "emissiveFactor": [
         0,
         0,
         0
       ],
-      "extensions": {
-        "KHR_materials_unlit": {}
+      "name": "Material",
+      "normalTexture": {
+        "index": 2,
+        "scale": 1,
+        "texCoord": 0
       },
-      "name": "smoke.001",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          1,
-          1,
-          1,
-          0.17000000000000001
-        ],
-        "baseColorTexture": {
-          "index": 1,
-          "texCoord": 0
-        },
-        "metallicFactor": 0,
-        "roughnessFactor": 1
-      }
-    },
-    {
-      "alphaMode": "BLEND",
-      "doubleSided": true,
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "extensions": {
-        "KHR_materials_unlit": {}
-      },
-      "name": "smoke",
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          1,
-          1,
-          1,
-          0.17000000000000001
-        ],
-        "baseColorTexture": {
-          "index": 2,
-          "texCoord": 0
-        },
-        "metallicFactor": 0,
-        "roughnessFactor": 1
-      }
-    },
-    {
-      "doubleSided": true,
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "extensions": {
-        "KHR_materials_unlit": {}
-      },
-      "name": "palette",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           1,
@@ -377,17 +160,21 @@
           1
         ],
         "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "metallicRoughnessTexture": {
           "index": 0,
           "texCoord": 0
         },
-        "metallicFactor": 0,
         "roughnessFactor": 1
       }
     }
   ],
   "meshes": [
     {
-      "name": "tom-waits_0",
+      "name": "LowPolyRadio_Material_0",
       "primitives": [
         {
           "attributes": {
@@ -397,38 +184,6 @@
             "TEXCOORD_0": 3
           },
           "indices": 4,
-          "material": 2,
-          "mode": 4
-        }
-      ]
-    },
-    {
-      "name": "smoke_0",
-      "primitives": [
-        {
-          "attributes": {
-            "NORMAL": 6,
-            "POSITION": 5,
-            "TANGENT": 7,
-            "TEXCOORD_0": 8
-          },
-          "indices": 9,
-          "material": 1,
-          "mode": 4
-        }
-      ]
-    },
-    {
-      "name": "smoke.001_0",
-      "primitives": [
-        {
-          "attributes": {
-            "NORMAL": 11,
-            "POSITION": 10,
-            "TANGENT": 12,
-            "TEXCOORD_0": 13
-          },
-          "indices": 14,
           "material": 0,
           "mode": 4
         }
@@ -456,179 +211,61 @@
     },
     {
       "children": [
-        3,
-        5,
-        7,
-        9,
-        11,
-        13
+        3
       ],
-      "name": "Root"
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "338c1fe1f006489d89380255b010289d.fbx"
     },
     {
       "children": [
         4
       ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
       "matrix": [
-        0.11338000000000001,
+        0.10680872946977615,
         0,
         0,
         0,
         0,
-        -0,
-        0.11338000000000001,
+        -1.7401350770194258e-08,
+        0.10680872946977474,
         0,
         0,
-        -0.11338000000000001,
-        -0,
+        -0.10680872946977474,
+        -1.7401350770194258e-08,
         0,
-        0,
-        0,
-        0,
+        174.00651550292969,
+        43.971870422363281,
+        32.360450744628906,
         1
       ],
-      "name": "tom-waits"
+      "name": "LowPolyRadio"
     },
     {
       "mesh": 0,
-      "name": "tom-waits_0"
-    },
-    {
-      "children": [
-        6
-      ],
-      "matrix": [
-        0.94473000000000007,
-        0,
-        -0.32785000000000009,
-        0,
-        -0,
-        1,
-        0,
-        0,
-        0.32785000000000009,
-        0,
-        0.94473000000000007,
-        0,
-        3.8853300000000002,
-        0.36850000000000005,
-        10.69049,
-        1
-      ],
-      "name": "Spot"
-    },
-    {
-      "name": "Spot"
-    },
-    {
-      "children": [
-        8
-      ],
-      "matrix": [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0.33170000000000005,
-        1.1934800000000001,
-        5.2014400000000007,
-        1
-      ],
-      "name": "Point"
-    },
-    {
-      "name": "Point"
-    },
-    {
-      "children": [
-        10
-      ],
-      "matrix": [
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        3.4059999999999997,
-        1.1934800000000001,
-        4.1069199999999997,
-        1
-      ],
-      "name": "Point.001"
-    },
-    {
-      "name": "Point.001"
-    },
-    {
-      "children": [
-        12
-      ],
-      "matrix": [
-        2.9798999999999998,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2.9798999999999998,
-        0,
-        0,
-        -2.9798999999999998,
-        0,
-        0,
-        1.1338299999999999,
-        -0.63158000000000003,
-        5.3811900000000001,
-        1
-      ],
-      "name": "smoke"
-    },
-    {
-      "mesh": 1,
-      "name": "smoke_0"
-    },
-    {
-      "children": [
-        14
-      ],
-      "matrix": [
-        0.21986000000000003,
-        2.6791100000000001,
-        -0.16351000000000004,
-        0,
-        0.0097900000000000036,
-        0.16325000000000003,
-        2.6881100000000004,
-        0,
-        2.6840800000000002,
-        -0.22005000000000002,
-        0.0035900000000000012,
-        0,
-        1.2336399999999998,
-        -0.69404000000000021,
-        5.2145799999999989,
-        1
-      ],
-      "name": "smoke.001"
-    },
-    {
-      "mesh": 2,
-      "name": "smoke.001_0"
+      "name": "LowPolyRadio_Material_0"
     }
   ],
   "samplers": [
