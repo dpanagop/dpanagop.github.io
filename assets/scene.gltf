@@ -3,27 +3,27 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 1048,
+      "count": 5574,
       "max": [
-        1188.5107421875,
-        255.91574096679688,
-        552.78765869140625
+        620.61175537109375,
+        926.4241943359375,
+        280.48480224609375
       ],
       "min": [
-        -1200.7998046875,
-        -767.20904541015625,
-        -979.748046875
+        -613.89984130859375,
+        13.110336303710938,
+        -136.28399658203125
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 12576,
+      "byteOffset": 66888,
       "componentType": 5126,
-      "count": 1048,
+      "count": 5574,
       "max": [
         1,
-        0.80251044034957886,
+        1,
         1
       ],
       "min": [
@@ -36,15 +36,15 @@
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 1048,
+      "count": 5574,
       "max": [
-        0.73342204093933105,
+        1,
         1,
         1,
         1
       ],
       "min": [
-        -0.73095893859863281,
+        -1,
         -1,
         -1,
         -1
@@ -54,23 +54,23 @@
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 1048,
+      "count": 5574,
       "max": [
-        0.99934935569763184,
-        0.99934357404708862
+        0.99414873123168945,
+        0.98861491680145264
       ],
       "min": [
-        0.00065070169512182474,
-        0.00065645278664305806
+        0.01529383659362793,
+        0.0098652839660644531
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 2844,
+      "count": 10812,
       "max": [
-        1047
+        5573
       ],
       "min": [
         0
@@ -80,42 +80,42 @@
   ],
   "asset": {
     "extras": {
-      "author": "Gunnar Correa (https://sketchfab.com/gunnarcorrea)",
+      "author": "ra3id (https://sketchfab.com/ra3id)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/models/2c1eb3eaa58d4d60b0fbdd38a08833d5",
-      "title": "Old radio"
+      "source": "https://sketchfab.com/3d-models/upright-piano-ae0529d9da834820b8a9c30ec0b6228f",
+      "title": "Upright Piano"
     },
-    "generator": "Sketchfab-4.32.0",
+    "generator": "Sketchfab-4.54.1",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 11376,
+      "byteLength": 43248,
       "byteOffset": 0,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 8384,
-      "byteOffset": 11376,
+      "byteLength": 44592,
+      "byteOffset": 43248,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 25152,
-      "byteOffset": 19760,
+      "byteLength": 133776,
+      "byteOffset": 87840,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 16768,
-      "byteOffset": 44912,
+      "byteLength": 89184,
+      "byteOffset": 221616,
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
@@ -123,58 +123,57 @@
   ],
   "buffers": [
     {
-      "byteLength": 61680,
+      "byteLength": 310800,
       "uri": "scene.bin"
     }
   ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
   "images": [
     {
-      "uri": "textures/Material_metallicRoughness.png"
+      "uri": "textures/lambert7_specularGlossiness.png"
     },
     {
-      "uri": "textures/Material_baseColor.png"
-    },
-    {
-      "uri": "textures/Material_normal.png"
+      "uri": "textures/lambert7_diffuse.png"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "name": "Material",
-      "normalTexture": {
-        "index": 2,
-        "scale": 1,
-        "texCoord": 0
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "diffuseTexture": {
+            "index": 1,
+            "texCoord": 0
+          },
+          "glossinessFactor": 1,
+          "specularFactor": [
+            0.14195884149999999,
+            0.14195884149999999,
+            0.14195884149999999
+          ],
+          "specularGlossinessTexture": {
+            "index": 0,
+            "texCoord": 0
+          }
+        }
       },
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "baseColorTexture": {
-          "index": 1,
-          "texCoord": 0
-        },
-        "metallicFactor": 1,
-        "metallicRoughnessTexture": {
-          "index": 0,
-          "texCoord": 0
-        },
-        "roughnessFactor": 1
-      }
+      "name": "lambert7"
     }
   ],
   "meshes": [
     {
-      "name": "LowPolyRadio_Material_0",
+      "name": "polySurface4_lambert7_0",
       "primitives": [
         {
           "attributes": {
@@ -231,7 +230,7 @@
         0,
         1
       ],
-      "name": "338c1fe1f006489d89380255b010289d.fbx"
+      "name": "e552283101f24bb7b812cae1b35d26c8.fbx"
     },
     {
       "children": [
@@ -244,28 +243,28 @@
         5
       ],
       "matrix": [
-        0.10680872946977615,
+        1,
         0,
         0,
         0,
         0,
-        -1.7401350770194258e-08,
-        0.10680872946977474,
+        1,
         0,
         0,
-        -0.10680872946977474,
-        -1.7401350770194258e-08,
         0,
-        174.00651550292969,
-        43.971870422363281,
-        32.360450744628906,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -67.736885070800781,
         1
       ],
-      "name": "LowPolyRadio"
+      "name": "polySurface4"
     },
     {
       "mesh": 0,
-      "name": "LowPolyRadio_Material_0"
+      "name": "polySurface4_lambert7_0"
     }
   ],
   "samplers": [
@@ -293,10 +292,6 @@
     {
       "sampler": 0,
       "source": 1
-    },
-    {
-      "sampler": 0,
-      "source": 2
     }
   ]
 }
