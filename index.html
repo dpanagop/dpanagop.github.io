@@ -26,6 +26,30 @@
         body {
             font-family: 'Inter', sans-serif;
         }
+		.linkedin-button {
+		display: inline-flex;
+		align-items: center;
+		padding: 12px 24px;
+		background-color: #0077b5; /* Official LinkedIn Blue */
+		color: white !important;
+		text-decoration: none;
+		font-family: 'Inter', sans-serif;
+		font-weight: 600;
+		border-radius: 8px;
+		transition: all 0.3s ease;
+		box-shadow: 0 4px 15px rgba(0, 119, 181, 0.2);
+		gap: 10px;
+		}
+
+		.linkedin-button:hover {
+		background-color: #005582;
+		transform: translateY(-2px);
+		box-shadow: 0 6px 20px rgba(0, 119, 181, 0.4);
+		}
+		
+		.linkedin-button i {
+		font-size: 1.2rem;
+		}
     </style>
     <script type="application/ld+json">
     {
@@ -147,12 +171,20 @@
                 <p class="leading-relaxed">
                     Passionate about building the systems that help businesses thrive in an era of exponential change.
                 </p>
+				
+				<div class="space-y-12">
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
+				<a href="https://www.linkedin.com/in/dpanagopoulos/" class="linkedin-button" target="_blank">
+					<i class="fab fa-linkedin"></i> Connect on LinkedIn
+				</a>
+				</div>
+				
                 <div class="mt-16 pt-12 border-t border-gray-100">
                     <p class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-8">
                         Interactive Bio (LLM Optimized)
                     </p>
-
+						
                     <div class="space-y-12">
                         <div>
                             <h2 class="text-xl font-bold text-gray-900 mb-2">Who is Dimitrios Panagopoulos?</h2>
