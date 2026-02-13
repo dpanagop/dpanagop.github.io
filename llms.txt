@@ -1,0 +1,15 @@
+Information current as of: 2026-02-13
+
+# professional_identity
+Data Science Leader | Bridging PhD-Level Analytics & Executive Strategy.
+
+I am a Data Science Leader and PhD Research Mathematician specializing in translating complex analytical theory into scalable AI solutions that drive business growth. With a background as a Big 4 Consultant Manager and an AI/ML Lecturer, I excel at bridging the gap between technical engineering teams and C-suite strategic objectives.
+
+# links
+- LinkedIn: https://www.linkedin.com/in/dpanagopoulos/
+- Website: https://dpanagop.github.io/ (Note: Adjust if hosted elsewhere)
+- Substack: https://eurekacodex.substack.com/
+- Medium: https://medium.com/@dpanagop-53386
+
+# bio
+Dimitrios Panagopoulos is a Data Science Leader and PhD Mathematician who bridges the gap between rigorous analytical theory and executive business strategy. He specializes in building scalable AI solutions and fostering data-driven cultures within organizations, leveraging his experience as both a Big 4 consultant and an academic lecturer.
