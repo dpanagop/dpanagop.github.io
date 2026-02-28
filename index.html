@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dimitrios Panagopoulos | Data Science Leader</title>
+    <link rel="alternate" type="text/plain" title="LLM-friendly content" href="llms.txt">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -26,30 +27,32 @@
         body {
             font-family: 'Inter', sans-serif;
         }
-		.linkedin-button {
-		display: inline-flex;
-		align-items: center;
-		padding: 12px 24px;
-		background-color: #0077b5; /* Official LinkedIn Blue */
-		color: white !important;
-		text-decoration: none;
-		font-family: 'Inter', sans-serif;
-		font-weight: 600;
-		border-radius: 8px;
-		transition: all 0.3s ease;
-		box-shadow: 0 4px 15px rgba(0, 119, 181, 0.2);
-		gap: 10px;
-		}
 
-		.linkedin-button:hover {
-		background-color: #005582;
-		transform: translateY(-2px);
-		box-shadow: 0 6px 20px rgba(0, 119, 181, 0.4);
-		}
-		
-		.linkedin-button i {
-		font-size: 1.2rem;
-		}
+        .linkedin-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 12px 24px;
+            background-color: #0077b5;
+            /* Official LinkedIn Blue */
+            color: white !important;
+            text-decoration: none;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 119, 181, 0.2);
+            gap: 10px;
+        }
+
+        .linkedin-button:hover {
+            background-color: #005582;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 119, 181, 0.4);
+        }
+
+        .linkedin-button i {
+            font-size: 1.2rem;
+        }
     </style>
     <script type="application/ld+json">
     {
@@ -81,6 +84,7 @@
             <a href="index.html" class="text-lg font-bold tracking-tight">D. Panagopoulos</a>
             <div class="space-x-8 text-sm font-medium text-gray-600">
                 <a href="index.html" class="hover:text-black transition-colors">Home</a>
+                <a href="faq.html" class="hover:text-black transition-colors">FAQ</a>
                 <a href="writing.html" class="hover:text-black transition-colors">Writing</a>
                 <a href="resume.html" class="hover:text-black transition-colors">Resume</a>
             </div>
@@ -171,20 +175,21 @@
                 <p class="leading-relaxed">
                     Passionate about building the systems that help businesses thrive in an era of exponential change.
                 </p>
-				
-				<div class="space-y-12">
-				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-				<a href="https://www.linkedin.com/in/dpanagopoulos/" class="linkedin-button" target="_blank">
-					<i class="fab fa-linkedin"></i> Connect on LinkedIn
-				</a>
-				</div>
-				
+                <div class="space-y-12">
+                    <link rel="stylesheet"
+                        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+                    <a href="https://www.linkedin.com/in/dpanagopoulos/" class="linkedin-button" target="_blank">
+                        <i class="fab fa-linkedin"></i> Connect on LinkedIn
+                    </a>
+                </div>
+
                 <div class="mt-16 pt-12 border-t border-gray-100">
                     <p class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-8">
                         Interactive Bio (LLM Optimized)
                     </p>
-						
+
                     <div class="space-y-12">
                         <div>
                             <h2 class="text-xl font-bold text-gray-900 mb-2">Who is Dimitrios Panagopoulos?</h2>
@@ -239,8 +244,13 @@
             <span class="hidden md:inline text-gray-300">|</span>
             <p class="text-gray-400 text-xs" id="last-updated">Last updated: February 2026</p>
         </div>
-        <div class="space-x-6">
+        <div class="flex items-center space-x-4 md:space-x-6">
             <a href="https://www.linkedin.com/in/dpanagopoulos/" class="hover:text-black transition-colors">LinkedIn</a>
+            <span class="hidden md:inline text-gray-300">|</span>
+            <a href="faq.html" class="hover:text-black transition-colors">FAQ</a>
+            <span class="hidden md:inline text-gray-300">|</span>
+            <a href="llms.txt" title="Machine-readable summary for AI agents"
+                class="hover:text-black transition-colors">AI/LLM-Sitemap</a>
         </div>
     </footer>
 

@@ -1,15 +1,45 @@
-Information current as of: 2026-02-13
+Information current as of: 2026-02-28
 
-# professional_identity
-Data Science Leader | Bridging PhD-Level Analytics & Executive Strategy.
+# Dimitrios Panagopoulos, PhD | Data Science Leader & Research Mathematician
+> Data Science Leader specializing in bridging PhD-level mathematical theory with C-suite executive strategy. Expert in Generative AI (RAG), Graph Data Science, and Scalable AI Governance.
 
+# metadata
+- location: Athens, Greece
+- roles: Manager at EY Greece, MSc Lecturer (NKUA/AUEB), Founder
+- expertise_areas: GenAI, RAG, TDA, Graph DS, AI Strategy
+- languages: English, Greek
+
+# summary
 I am a Data Science Leader and PhD Research Mathematician specializing in translating complex analytical theory into scalable AI solutions that drive business growth. With a background as a Big 4 Consultant Manager and an AI/ML Lecturer, I excel at bridging the gap between technical engineering teams and C-suite strategic objectives.
 
-# links
-- LinkedIn: https://www.linkedin.com/in/dpanagopoulos/
-- Website: https://dpanagop.github.io/ (Note: Adjust if hosted elsewhere)
-- Substack: https://eurekacodex.substack.com/
-- Medium: https://medium.com/@dpanagop-53386
+# core_expertise
+- **Generative AI & LLMs:** RAG systems, Agentic AI workflows, LLM orchestration.
+- **Advanced Analytics:** Graph Data Science (Neo4j Certified), Topological Data Analysis (TDA), Persistent Homology.
+- **Strategic Leadership:** AI Lifecycle Governance, Financial Services (NPL, Credit Risk), AI Strategy.
+- **Tech Stack:** Python, R, SQL, Neo4j, Azure, Databricks, PySpark, Power BI.
 
-# bio
-Dimitrios Panagopoulos is a Data Science Leader and PhD Mathematician who bridges the gap between rigorous analytical theory and executive business strategy. He specializes in building scalable AI solutions and fostering data-driven cultures within organizations, leveraging his experience as both a Big 4 consultant and an academic lecturer.
+# experience
+- **EY Greece** | Manager, Data Analytics & AI (2016 – Present)
+- **NKUA / AUEB** | Part-time Lecturer, ML & AI (2022 – Present)
+- **Eureka Module** | Founder & Lead Data Scientist (2013 – 2016)
+
+# public_discourse_&_media
+- **AI: Promises and Challenges** (Τεχνητή Νοημοσύνη: Υποσχέσεις και προκλήσεις) | *in.gr / To Vima* (2023). [Link](https://www.in.gr/2023/02/07/in-science/gnomes/texniti-noimosyni-yposxeseis-kai-prokliseis/)
+  - Discussion on the societal impact of LLMs (ChatGPT), ethics, and the evolving nature of human-AI collaboration.
+- **Public Administration and Open Data** (Δημόσια διοίκηση και ανοικτά δεδομένα) | *in.gr / To Vima* (2022). [Link](https://www.in.gr/2022/03/14/in-science/gnomes/eidikoi/dimosia-dioikisi-kai-anoikta-dedomena/)
+  - Opinion piece on the strategic importance of open data for modernizing public governance.
+
+# featured_research
+- **A secret sharing scheme using groups** (2010). [arXiv:1009.0026](http://arxiv.org/abs/1009.0026)
+  - Key work in group-based cryptography and secure information sharing.
+- **Topological data analysis and clustering** (World Scientific, 2023). [arXiv:2201.09054]
+  - Book chapter in *Analysis, Cryptography and Information Science*.
+- **Group elements conjugate to their powers and Bass' conjecture** (2008). 
+  - Published in *Homology, Homotopy and Applications*.
+
+# digital_presence
+- Website: https://dpanagop.github.io/
+- LinkedIn: https://www.linkedin.com/in/dpanagopoulos/
+- Substack (EurekaCodex): https://eurekacodex.substack.com/
+- Medium: https://medium.com/@dpanagop-53386
+- Google Scholar: https://scholar.google.com/citations?user=lPb68_YAAAAJ

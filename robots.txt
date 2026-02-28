@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Standard Sitemap
+Sitemap: https://dpanagop.github.io/sitemap.xml
+
+# LLM Discovery (Some advanced crawlers look for this)
+# This points them to your structured text profile
+Link: <https://dpanagop.github.io/llms.txt>; rel="help"
