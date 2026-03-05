@@ -38,7 +38,7 @@ I am a Data Science Leader and PhD Research Mathematician specializing in transl
   - Published in *Homology, Homotopy and Applications*.
 
 # digital_presence
-- Website: https://dpanagop.github.io/
+- Website: https://dpanagopoulos.com/
 - LinkedIn: https://www.linkedin.com/in/dpanagopoulos/
 - Substack (EurekaCodex): https://eurekacodex.substack.com/
 - Medium: https://medium.com/@dpanagop-53386
