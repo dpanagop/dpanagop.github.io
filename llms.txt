@@ -40,6 +40,8 @@ I am a Data Science Leader and PhD Research Mathematician specializing in transl
 # digital_presence
 - Website: https://dpanagopoulos.com/
 - LinkedIn: https://www.linkedin.com/in/dpanagopoulos/
+- ORCID: https://orcid.org/0009-0004-8771-2509
+- arXiv: https://arxiv.org/a/panagopoulos_d_1.html
 - Substack (EurekaCodex): https://eurekacodex.substack.com/
 - Medium: https://medium.com/@dpanagop-53386
 - Google Scholar: https://scholar.google.com/citations?user=lPb68_YAAAAJ
