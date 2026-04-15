@@ -31,20 +31,23 @@
             font-family: 'Inter', sans-serif;
         }
 
-        .linkedin-button {
+        .primary-button {
             display: inline-flex;
             align-items: center;
             padding: 12px 24px;
-            background-color: #0077b5;
-            /* Official LinkedIn Blue */
             color: white !important;
             text-decoration: none;
             font-family: 'Inter', sans-serif;
             font-weight: 600;
             border-radius: 8px;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0, 119, 181, 0.2);
             gap: 10px;
+        }
+
+        .linkedin-button {
+            background-color: #0077b5;
+            /* Official LinkedIn Blue */
+            box-shadow: 0 4px 15px rgba(0, 119, 181, 0.2);
         }
 
         .linkedin-button:hover {
@@ -53,8 +56,15 @@
             box-shadow: 0 6px 20px rgba(0, 119, 181, 0.4);
         }
 
-        .linkedin-button i {
-            font-size: 1.2rem;
+        .contact-button {
+            background-color: #1a1a1a;
+            box-shadow: 0 4px 15px rgba(26, 26, 26, 0.2);
+        }
+
+        .contact-button:hover {
+            background-color: #000000;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
         }
     </style>
     <script type="application/ld+json">
@@ -164,31 +174,37 @@
                     <span class="text-gray-500">Bridging PhD-Level Analytics & Executive Strategy.</span>
                 </h1>
                 <p class="text-xl text-gray-600 max-w-2xl leading-relaxed">
-                    I transform complex data into competitive advantages. Specializing in translating rigorous
-                    analytical theory into scalable AI solutions that drive bottom-line growth.
+                    I bridge the gap between PhD-level mathematics and organizational strategy. 
+                    As a Big 4 Manager and AI Lecturer, I build the frameworks that turn technological uncertainty into structural advantage
                 </p>
             </div>
         </section>
 
         <!-- Bio / Value Prop -->
         <section class="max-w-4xl mx-auto px-6 grid md:grid-cols-3 gap-12 mb-24">
-            <div class="col-span-1 p-6 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors">
+            <div class="col-span-1 p-6 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors flex flex-col">
                 <div class="h-1 w-12 bg-black mb-6"></div>
                 <h3 class="font-bold text-lg mb-2">Technical Translation</h3>
-                <p class="text-gray-600 text-sm leading-relaxed">Distilling high-level mathematics into clear,
-                    executive-level narratives for non-technical stakeholders.</p>
+                <p class="text-gray-600 text-sm leading-relaxed flex-grow">Distilling advanced mathematical and analytical ideas into decision-ready architectures for non-technical leaders.</p>
+                <p class="mt-6 pt-4 border-t border-gray-200 text-xs text-gray-500">
+                    Featured Research: <a href="https://arxiv.org/abs/2201.09054" class="underline hover:text-black transition-colors" target="_blank" rel="noopener noreferrer">Topological Data Analysis (arXiv/World Scientific)</a> | <a href="https://map.aueb.gr/professors" class="underline hover:text-black transition-colors" target="_blank" rel="noopener noreferrer">AI Lecturer (NKUA/AUEB)</a>
+                </p>
             </div>
-            <div class="col-span-1 p-6 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors">
+            <div class="col-span-1 p-6 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors flex flex-col">
                 <div class="h-1 w-12 bg-gray-400 mb-6"></div>
                 <h3 class="font-bold text-lg mb-2">Strategic AI Roadmap</h3>
-                <p class="text-gray-600 text-sm leading-relaxed">Designing future-resilient strategies that move AI from
-                    "experimental" to "mission-critical."</p>
+                <p class="text-gray-600 text-sm leading-relaxed flex-grow">Designing and evaluating AI initiatives across their full lifecycle—from early experimentation to robust, governed, production-grade systems.</p>
+                <p class="mt-6 pt-4 border-t border-gray-200 text-xs text-gray-500">
+                    Featured Presenter: <a href="https://neo4j.com/videos/neo4j-live-movie-recommendations-with-neo4j/" class="underline hover:text-black transition-colors" target="_blank" rel="noopener noreferrer">Neo4j Live on Graph-based Recommendation Systems</a>
+                </p>
             </div>
-            <div class="col-span-1 p-6 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors">
+            <div class="col-span-1 p-6 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors flex flex-col">
                 <div class="h-1 w-12 bg-gray-400 mb-6"></div>
                 <h3 class="font-bold text-lg mb-2">Operational Excellence</h3>
-                <p class="text-gray-600 text-sm leading-relaxed">Leveraging Big 4 consulting rigor to optimize business
-                    processes and mitigate risk through predictive modeling.</p>
+                <p class="text-gray-600 text-sm leading-relaxed flex-grow">Applying rigorous analytical methods to improve system performance—reducing risk, exposing failure modes, and improving decision quality.</p>
+                <p class="mt-6 pt-4 border-t border-gray-200 text-xs text-gray-500">
+                    Framework: <a href="https://github.com/dpanagop/brandprobe" class="underline hover:text-black transition-colors" target="_blank" rel="noopener noreferrer">BrandProbe – Open-source evaluation of AI behavior</a>
+                </p>
             </div>
         </section>
 
@@ -213,9 +229,14 @@
                     <link rel="stylesheet"
                         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-                    <a href="https://www.linkedin.com/in/dpanagopoulos/" class="linkedin-button" target="_blank">
-                        <i class="fab fa-linkedin"></i> Connect on LinkedIn
-                    </a>
+                    <div class="flex flex-wrap items-center gap-4">
+                        <a href="https://www.linkedin.com/in/dpanagopoulos/" class="primary-button linkedin-button" target="_blank">
+                            <i class="fab fa-linkedin text-[1.2rem]"></i> Connect on LinkedIn
+                        </a>
+                        <a href="https://forms.gle/c9S7XFZ4HGc1TT6j6" class="primary-button contact-button" target="_blank">
+                            <i class="fas fa-envelope text-[1.2rem]"></i> Contact Me
+                        </a>
+                    </div>
                 </div>
 
                 <div class="mt-16 pt-12 border-t border-gray-100">
