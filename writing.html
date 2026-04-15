@@ -73,19 +73,47 @@
             Selected articles on AI, Mathematics, and Strategy.
         </p>
 
-        <div class="grid md:grid-cols-2 gap-12 mb-20">
+        <!-- Featured Series -->
+        <section class="mb-24">
+            <div class="mb-8 border-l-4 border-black pl-6">
+                <h2 class="text-3xl font-bold tracking-tight mb-2">Series: Navigating the AI Hype Lifecycle</h2>
+                <p class="text-lg text-gray-600 max-w-3xl">A two-part structural analysis of market corrections and the roadmap for post-hype resilience.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Part 1 -->
+                <a href="https://eurekacodex.substack.com/p/will-the-current-ai-ecosystem-burst" target="_blank" class="block p-8 bg-black text-white rounded-xl hover:shadow-xl border border-transparent hover:border-gray-700 hover:-translate-y-1 transition-all group relative overflow-hidden">
+                    <div class="absolute -right-10 -top-10 w-32 h-32 bg-white/5 rounded-full blur-2xl group-hover:bg-white/10 transition-all"></div>
+                    <span class="inline-block px-3 py-1 bg-white/20 text-white text-xs font-bold uppercase tracking-wider rounded-full mb-4">Part 1</span>
+                    <h3 class="text-2xl font-bold mb-3 pr-4">Will the current AI ecosystem burst?</h3>
+                    <p class="text-gray-300 text-sm leading-relaxed mb-6">Examining structural market frictions, the reality of the generative AI valuation gap, and identifying the early warning signs of an inevitable correction.</p>
+                    <span class="font-medium text-sm text-white flex items-center group-hover:opacity-80 transition-opacity mt-auto">Read Analysis <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg></span>
+                </a>
+                
+                <!-- Part 2 -->
+                <a href="https://eurekacodex.substack.com/p/beyond-the-bubble-preparing-for-the" target="_blank" class="block p-8 bg-gray-50 border border-gray-200 rounded-xl hover:shadow-xl hover:border-gray-300 hover:-translate-y-1 transition-all group">
+                    <span class="inline-block px-3 py-1 bg-gray-200 text-gray-700 text-xs font-bold uppercase tracking-wider rounded-full mb-4">Part 2</span>
+                    <h3 class="text-2xl font-bold mb-3 text-black">Beyond the Bubble</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-6">Formulating a strategic roadmap for enterprises to build resilient, governance-first AI architectures designed to thrive in a post-hype, utility-driven market.</p>
+                    <span class="font-medium text-sm text-black flex items-center group-hover:text-gray-600 transition-colors mt-auto">Read Roadmap <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Full Archives & Profiles -->
+        <h2 class="text-2xl font-bold tracking-tight mb-8 pb-4 border-b border-gray-100">Full Archives & Profiles</h2>
+        <div class="grid md:grid-cols-2 gap-12 mb-24">
             <!-- Substack Section -->
-            <section>
-                <h2 class="text-xl font-bold mb-6 flex items-center">
+            <section class="h-full">
+                <h3 class="text-lg font-bold mb-4 flex items-center">
                     <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
                         <path
                             d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z" />
                     </svg>
                     EurekaCodex
-                </h2>
-                <!-- Placeholder Cards -->
+                </h3>
                 <div
-                    class="p-6 bg-gray-50 border border-gray-100 rounded-lg text-center py-12 hover:border-gray-300 transition-colors group">
+                    class="p-6 bg-white border border-gray-100 rounded-lg text-center py-10 hover:shadow-md transition-all group h-[calc(100%-2rem)] flex flex-col justify-center items-center">
                     <p class="text-gray-500 text-sm mb-4 leading-relaxed">
                         A strategic publication exploring the intersection of Mathematics and AI Leadership. Topics
                         include AI Governance, the philosophy of Data Science, and navigating the transition to Agentic
@@ -98,17 +126,16 @@
             </section>
 
             <!-- Medium Section -->
-            <section>
-                <h2 class="text-xl font-bold mb-6 flex items-center">
+            <section class="h-full">
+                <h3 class="text-lg font-bold mb-4 flex items-center">
                     <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
                         <path
                             d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.82 24 12z" />
                     </svg>
                     Medium
-                </h2>
-                <!-- Placeholder Cards -->
+                </h3>
                 <div
-                    class="p-6 bg-gray-50 border border-gray-100 rounded-lg text-center py-12 hover:border-gray-300 transition-colors group">
+                    class="p-6 bg-white border border-gray-100 rounded-lg text-center py-10 hover:shadow-md transition-all group h-[calc(100%-2rem)] flex flex-col justify-center items-center">
                     <p class="text-gray-500 text-sm mb-4 leading-relaxed">
                         Focuses on Graph Data Science (Neo4j), Anomaly Detection (Autoencoders), and specialized
                         clustering techniques. Notable for bridging pure math with Python-based implementation.
