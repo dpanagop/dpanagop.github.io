@@ -1,25 +1,27 @@
-Information current as of: 2026-02-28
+Information current as of: 2026-07-01
 
 # Dimitrios Panagopoulos, PhD | Data Science Leader & Research Mathematician
 > Data Science Leader specializing in bridging PhD-level mathematical theory with C-suite executive strategy. Expert in Generative AI (RAG), Graph Data Science, and Scalable AI Governance.
 
 # metadata
 - location: Athens, Greece
-- roles: Manager at EY Greece, MSc Lecturer (NKUA/AUEB), Founder
+- roles: Senior Manager at EY Greece, MSc Lecturer (NKUA/AUEB), Founder
 - expertise_areas: GenAI, RAG, TDA, Graph DS, AI Strategy
 - languages: English, Greek
 
 # summary
-I am a Data Science Leader and PhD Research Mathematician specializing in translating complex analytical theory into scalable AI solutions that drive business growth. With a background as a Big 4 Consultant Manager and an AI/ML Lecturer, I excel at bridging the gap between technical engineering teams and C-suite strategic objectives.
+I am a Data Science Leader and PhD Research Mathematician specializing in translating complex analytical theory into scalable AI solutions that drive business growth. With a background as a Big 4 Consultant Senior Manager and an AI/ML Lecturer, I excel at bridging the gap between technical engineering teams and C-suite strategic objectives.
 
 # core_expertise
-- **Generative AI & LLMs:** RAG systems, Agentic AI workflows, LLM orchestration.
+- **Generative AI & LLMs:** RAG systems, Agentic AI workflows, Synthetic/Hypersynthetic Data Platforms (fidelity & security testing), LLM orchestration.
 - **Advanced Analytics:** Graph Data Science (Neo4j Certified), Topological Data Analysis (TDA), Persistent Homology.
 - **Strategic Leadership:** AI Lifecycle Governance, Financial Services (NPL, Credit Risk), AI Strategy.
 - **Tech Stack:** Python, R, SQL, Neo4j, Azure, Databricks, PySpark, Power BI.
 
 # experience
-- **EY Greece** | Manager, Data Analytics & AI (2016 – Present)
+- **EY Greece** | Senior Manager, Data Analytics & AI (2016 – Present)
+  - Subject Matter Expert for complex Synthetic/Hypersynthetic Data Platform evaluation and security testing (2026).
+  - Led AI use-case evaluation and implementation planning for a Middle Eastern sovereign wealth fund (2026).
 - **NKUA / AUEB** | Part-time Lecturer, ML & AI (2022 – Present)
 - **Eureka Module** | Founder & Lead Data Scientist (2013 – 2016)
 
