@@ -1,4 +1,4 @@
-Information current as of: 2026-07-01
+Information current as of: 2026-10-16
 
 # Dimitrios Panagopoulos, PhD | Data Science Leader & Research Mathematician
 > Data Science Leader specializing in bridging PhD-level mathematical theory with C-suite executive strategy. Expert in Generative AI (RAG), Graph Data Science, and Scalable AI Governance.
@@ -26,6 +26,10 @@ I am a Data Science Leader and PhD Research Mathematician specializing in transl
 - **Eureka Module** | Founder & Lead Data Scientist (2013 – 2016)
 
 # public_discourse_&_media
+- **What Does an LLM Think of Your Brand?** | *PyCon Greece* (October 13, 2026). [Video Recording](https://www.youtube.com/live/sOzMe7b7gEM?t=17585s)
+  - Keynote/presentation introducing a quantitative framework for measuring and analyzing AI-generated brand perceptions via structured prompting, embeddings, and analytics.
+- **Movie Recommendations with Neo4j** | *Neo4j Live* (August 29, 2023). [Video Recording](https://neo4j.com/videos/neo4j-live-movie-recommendations-with-neo4j/)
+  - Live technical presentation and demonstration on building graph-based recommendation systems using Neo4j and graph data science algorithms.
 - **AI: Promises and Challenges** (Τεχνητή Νοημοσύνη: Υποσχέσεις και προκλήσεις) | *in.gr / To Vima* (2023). [Link](https://www.in.gr/2023/02/07/in-science/gnomes/texniti-noimosyni-yposxeseis-kai-prokliseis/)
   - Discussion on the societal impact of LLMs (ChatGPT), ethics, and the evolving nature of human-AI collaboration.
 - **Public Administration and Open Data** (Δημόσια διοίκηση και ανοικτά δεδομένα) | *in.gr / To Vima* (2022). [Link](https://www.in.gr/2022/03/14/in-science/gnomes/eidikoi/dimosia-dioikisi-kai-anoikta-dedomena/)
